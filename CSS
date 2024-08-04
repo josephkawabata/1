@@ -1,5 +1,4 @@
 body {
-    font-family: Arial, sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9,30 +8,31 @@ body {
 }
 
 .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    text-align: center;
 }
 
-#input-box {
-    padding: 10px;
-    font-size: 16px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
+.chessboard {
+    margin: 20px auto;
 }
 
-button {
-    margin-top: 10px;
+.btn {
+    margin: 5px;
     padding: 10px 20px;
-    font-size: 16px;
-    border: none;
-    border-radius: 4px;
     background-color: #007BFF;
     color: white;
+    border: none;
     cursor: pointer;
 }
 
-button:hover {
+.btn:hover {
     background-color: #0056b3;
+}
+
+.settings {
+    margin-top: 20px;
+}
+
+#message {
+    margin-top: 20px;
+    font-weight: bold;
 }
